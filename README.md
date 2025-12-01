@@ -2,62 +2,74 @@ Quantum Anthology 🌌
 
 Bridge to Bridge Studio Edition
 
-"Sanat ve Mühendislik arasında köprüler kuruyoruz."
+"Building bridges between Art and Engineering."
 
-Quantum Anthology, kuantum mekaniği, kozmoloji ve teorik fiziğin karmaşık kavramlarını görselleştiren 5 farklı Generative Art eserinin, akışkan bir deneyim içinde birleştirildiği bir dijital sanat projesidir. Processing (Java) kullanılarak geliştirilen bu proje, matematiksel algoritmaları estetik bir dille yorumlar.
+Quantum Anthology is a digital art project that visualizes complex concepts of quantum mechanics, cosmology, and theoretical physics through 5 distinct Generative Art pieces, unified into a fluid experience. Developed using Processing (Java), this project interprets mathematical algorithms through an aesthetic lens.
 
-🎨 Eserler (Anthology)
+🎨 The Anthology
 
-Bu antoloji, mikro kozmostan (atom altı parçacıklar) makro kozmosa (süper kümeler) uzanan bir yolculuğu simgeler.
+This anthology symbolizes a journey stretching from the microcosm (subatomic particles) to the macrocosm (superclusters).
 
 1. Is This Quantum Computing
 
-Konsept: Sicim Teorisi & Düzensizlik
+Concept: String Theory & Irregularity
 
-Açıklama: Spirohedron şeklinden esinlenen bir sicim görselleştirmesidir. Sicimlerin titreşimsel hareketini simüle eder ve Vera Molnár'ın %1 düzensizlik algoritmasına benzer bir rastgelelik unsuru ekleyerek yapıya hafif, sanatsal bozulmalar katar.
+Description: A String Visualization inspired by the Spirohedron shape. It simulates the vibrational movement of strings and introduces an element of randomness similar to Vera Molnár's "1% disorder" algorithm, adding slight, artistic distortions to the structure.
 
 2. Hypnotic Gluons Build Everything
 
-Konsept: Kuantum Kromodinamiği (QCD)
+Concept: Quantum Chromodynamics (QCD)
 
-Açıklama: Kuarklar ve gluonların karmaşık etkileşimlerinden esinlenilmiştir. Parçacıkların canlı bir 3B uzayda salındığı ve etkileşime girdiği, gluon alanlarının dinamik ve sürekli değişen doğasını temsil eder. (Bu eser, subliminal bir etki yaratmak amacıyla kurguda en kısa süreye sahiptir.)
+Description: Inspired by the complex interactions of quarks and gluons. It represents the dynamic and ever-changing nature of gluon fields where particles oscillate and interact in a vibrant 3D space. (This piece has the shortest duration in the sequence to create a subliminal effect.)
 
 3. Hypercube
 
-Konsept: 4. Boyut Geometrisi
+Concept: 4th Dimension Geometry
 
-Açıklama: Dördüncü boyutun (Tesseract) gölgesini üç boyutlu uzayda titreşimli bir iz olarak temsil eder. Zamanla bükülen geometrinin kuantum olasılıklarını görünür kılmayı amaçlar.
+Description: Represents the shadow of the fourth dimension (Tesseract) as a vibrating trace in three-dimensional space. It aims to make the quantum possibilities of geometry warping over time visible.
 
 4. Orbit
 
-Konsept: Kütleçekimi & Uzay-Zaman Bükülmesi
+Concept: Gravity & Spacetime Curvature
 
-Açıklama: Evrenin dokusunu eğip bükerek ışığın yolunu yeniden çizen kütleçekim noktalarını simüle eder. Görünmeyen kozmik akışların mimarları olarak sahnede titreşen izler bırakır.
+Description: Simulates gravitational points that bend and warp the fabric of the universe, redrawing the path of light. They leave vibrating traces on the scene as the architects of unseen cosmic flows.
 
 5. Quantum Laniakea
 
-Konsept: Makro Yapılar & Kozmik Ağ
+Concept: Macro Structures & Cosmic Web
 
-Açıklama: Atom altı parçacıkların kaotik titreşimleriyle Laniakea Süperkümesi’nin devasa akışlarını aynı kozmik nefeste birleştirir. Ölçekler arası rezonansın evrendeki gizli ritmini görünür kılar.
+Description: Unites the chaotic vibrations of subatomic particles with the massive flows of the Laniakea Supercluster in the same cosmic breath. It makes the hidden rhythm of the universe visible through resonance across scales.
 
-🛠 Teknik Mimari (Engineering)
+🛠 Technical Architecture (Engineering)
 
-Bu proje, Bridge to Bridge Studio'nun "Mühendislik tabanlı Sanat" yaklaşımıyla Nesne Yönelimli Programlama (OOP) prensipleri kullanılarak inşa edilmiştir.
+This project is built using Object-Oriented Programming (OOP) principles, reflecting Bridge to Bridge Studio's "Engineering-based Art" approach.
 
-Scene Management System: Her eser Scene soyut sınıfından türetilmiştir (Polymorphism). Bu sayede yeni eserler sisteme modüler olarak eklenebilir.
+Scene Management System: Each artwork is derived from a Scene abstract class (Polymorphism). This allows new pieces to be added to the system modularly.
 
-PGraphics Buffering: Her sahne doğrudan ekrana değil, önce sanal bir tuvale (Off-screen buffer) çizilir.
+PGraphics Buffering: Each scene is not drawn directly to the screen but first to a virtual canvas (Off-screen buffer).
 
-Smooth Transitions: Sahneler arası geçişler, buffer'lanmış görüntülerin alpha kanalları (şeffaflık) manipüle edilerek (tint ve lerp mantığıyla) pürüzsüz bir şekilde gerçekleştirilir.
+Smooth Transitions: Transitions between scenes are achieved smoothly by manipulating the alpha channels (transparency) of the buffered images (using tint and lerp logic).
 
-Dynamic Timing: Her eserin kendine özgü bir süresi (duration) vardır. Örneğin "Gluon" sahnesi daha hızlı bir tempoya sahipken, diğer sahneler izleyicinin detayları görmesi için daha uzun süre ekranda kalır.
+Dynamic Timing: Each piece has its own unique duration. For example, the "Gluon" scene has a faster tempo, while other scenes remain on screen longer for the viewer to observe details.
 
-🚀 Kurulum ve Çalıştırma
+🚀 Installation & Execution
 
-Bu projeyi kendi bilgisayarınızda çalıştırmak için:
+To run this project on your local machine:
 
-Processing IDE'yi indirin ve kurun: processing.org
+Download and install the Processing IDE: processing.org
 
-Bu repodaki .pde dosyasını açın.
+Open the .pde file in this repo.
 
-Play butonuna basın.
+Press the Play button.
+
+👨‍💻 Credits
+
+Curator & Developer: Umut
+
+Studio: Bridge to Bridge Studio
+
+Language: Java (Processing)
+
+Field: Creative Coding / Data Visualization
+
+© 2025 Bridge to Bridge Studio. All rights reserved.
