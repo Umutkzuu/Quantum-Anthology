@@ -41,7 +41,7 @@ void setup() {
 
   // 3. ESER: HYPERCUBE
   scenes[2] = new SceneHypercube();
-  scenes[2].duration = 180; //
+  scenes[2].duration = 180; 
   scenes[2].title = "Hypercube";
   scenes[2].description = "Dördüncü boyutun gölgesini üç boyutlu uzayda titreşimli bir iz olarak temsil eden bu hiperküp, zamanla bükülen geometrinin kuantum olasılıklarını görünür kılmayı amaçlıyor.";
 
@@ -403,4 +403,5 @@ class LaniakeaParticle {
     pg.point(pos.x, pos.y, pos.z);
   }
 }
+
 
