@@ -117,7 +117,7 @@ void drawUI() {
   rect(0, height - 220, width, 220);
 
   // Stüdyo İsmi
-  fill(100, 255, 200); // Hafif turkuaz/neon yeşil
+  fill(100, 255, 200); 
   textFont(bodyFont);
   textAlign(CENTER);
   text("Bridge to Bridge Studio", width/2, height - 190);
@@ -135,7 +135,7 @@ void drawUI() {
   
   text(s.description, 40, height - 130, width - 80, 120);
 
-  // Progress Bar (Süre çubuğu) - Opsiyonel ama şık durur
+  // Progress Bar 
   float progress = map(timer, 0, s.duration, 0, width);
   if (!isFading) {
     stroke(100, 255, 200, 150);
@@ -403,6 +403,7 @@ class LaniakeaParticle {
     pg.point(pos.x, pos.y, pos.z);
   }
 }
+
 
 
 
