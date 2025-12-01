@@ -35,7 +35,7 @@ void setup() {
 
   // 2. ESER: HYPNOTIC GLUONS
   scenes[1] = new SceneGluon();
-  scenes[1].duration = 90; //
+  scenes[1].duration = 90; 
   scenes[1].title = "Hypnotic Gluons Build Everything";
   scenes[1].description = "Kuantum kromodinamiğindeki (QCD) kuarklar ve gluonların karmaşık etkileşimlerinden esinlenen bir Gluon Alanı Görselleştirmesi. Parçacıkların canlı bir 3B uzayda salındığı ve etkileşime girdiği dinamik yapı.";
 
@@ -47,13 +47,13 @@ void setup() {
 
   // 4. ESER: ORBIT
   scenes[3] = new SceneGravity();
-  scenes[3].duration = 180; //
+  scenes[3].duration = 180; 
   scenes[3].title = "Orbit";
   scenes[3].description = "Evrenin dokusunu eğip bükerek ışığın yolunu yeniden çizen bu kütleçekim noktaları, görünmeyen kozmik akışların mimarları olarak sahnede titreşen birer iz bırakıyor.";
 
   // 5. ESER: QUANTUM LANIAKEA
   scenes[4] = new SceneLaniakea();
-  scenes[4].duration = 200; // 
+  scenes[4].duration = 200; 
   scenes[4].title = "Quantum Laniakea";
   scenes[4].description = "Atom altı parçacıkların kaotik titreşimleriyle Laniakea Süperkümesi’nin devasa akışlarını aynı kozmik nefeste birleştiren bu çalışma, ölçekler arası rezonansın evrendeki gizli ritmini görünür kılıyor.";
 
@@ -403,5 +403,6 @@ class LaniakeaParticle {
     pg.point(pos.x, pos.y, pos.z);
   }
 }
+
 
 
