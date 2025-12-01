@@ -101,7 +101,7 @@ void draw() {
   }
 
   // --- 3. UI LAYER (Bilgi Ekranı) ---
-  // 3D derinlik testini kapatıyoruz ki yazılar hep en üstte görünsün
+  
   hint(DISABLE_DEPTH_TEST);
   drawUI();
   hint(ENABLE_DEPTH_TEST);
@@ -403,3 +403,4 @@ class LaniakeaParticle {
     pg.point(pos.x, pos.y, pos.z);
   }
 }
+
