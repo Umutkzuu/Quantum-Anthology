@@ -113,7 +113,7 @@ void drawUI() {
 
   // Alt Panel Arkaplanı 
   noStroke();
-  fill(0, 180); // Yarı saydam siyah
+  fill(0, 180);
   rect(0, height - 220, width, 220);
 
   // Stüdyo İsmi
@@ -403,6 +403,7 @@ class LaniakeaParticle {
     pg.point(pos.x, pos.y, pos.z);
   }
 }
+
 
 
 
